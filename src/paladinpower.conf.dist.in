@@ -10,7 +10,7 @@ Paladinpower.Enable = 0
 
 # (0-1) Enable or disable Crusader Strike
 # if this is set to 0 and Paladinpower.Enable = 1, then it will remove this spell from every player
-Paladinpower.EnableCrusaderStrike = 1
+Paladinpower.EnableCrusaderStrike = 0
 
 # (0-1) Enable or disable Old holy strike
 # if this is set to 0 and Paladinpower.Enable = 1, then it will remove this spell from every player

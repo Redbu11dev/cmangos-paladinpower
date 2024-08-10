@@ -10,7 +10,10 @@ Classic only
 1. Follow the instructions in https://github.com/davidonete/cmangos-modules?tab=readme-ov-file#how-to-install
 2. Enable the `BUILD_MODULE_PALADINPOWER` flag in cmake and run cmake. The module should be installed in `src/modules/paladinpower`
 3. Copy the configuration file from `src/modules/transmog/src/paladinpower.conf.dist.in` and place it where your mangosd executable is. Also rename it to `paladinpower.conf`.
-4. Done
+4. Go to `paladinpower.conf` and enable desired config options
+5. Done
 
 # How to uninstall
-Set Paladinpower.Enable = 0 in config and relaunch the server once and let it load, it will remove all the added spells for all players
+1. Go to `paladinpower.conf` and set Paladinpower.Enable = 0
+2. Relaunch the server once and let it load, it will remove all the added spells for all players
+3. Done
