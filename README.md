@@ -14,6 +14,6 @@ Classic only
 5. Done
 
 # How to uninstall
-1. Go to `paladinpower.conf` and set Paladinpower.Enable = 0
+1. Go to `paladinpower.conf` and set `Paladinpower.Enable = 0`
 2. Relaunch the server once and let it load, it will remove all the added spells for all players
 3. Done
