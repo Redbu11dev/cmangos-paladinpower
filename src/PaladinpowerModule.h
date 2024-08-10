@@ -23,7 +23,29 @@ namespace cmangos_module
         void OnGiveLevel(Player* player, uint32 level) override;
 
     private:
-        void LearnAvailableSkills(Player* player);
+        std::vector<std::pair<uint32, uint32>> csRanks = {
+                {2537, 10},
+                {8823, 20},
+                {8824, 30},
+                {10336, 40},
+                {10337, 50}
+        };
+        std::vector<std::pair<uint32, uint32>> oldHsRanks = {
+                {679, 10},
+                {678, 20},
+                {1866, 30},
+                {680, 40},
+                {2495, 40},
+                {5569, 40},
+                {10332, 40},
+                {10333, 40}
+        };
+
+        void LearnCrusaderStrikeOfAvailableRanks(Player* player);
+        void UnlearnAllRanksOfCrusaderStrikeForEveryPlayer();
+
+        void LearnOldHolyStrikeOfAvailableRanks(Player* player);
+        void UnlearnAllRanksOfOldHolyStrikeForEveryPlayer();
     };
 }
 #endif

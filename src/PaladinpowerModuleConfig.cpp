@@ -15,6 +15,9 @@ namespace cmangos_module
     {
         enabled = config.GetBoolDefault("Paladinpower.Enable", false);
 
+        enableCrusaderStrike = config.GetBoolDefault("Paladinpower.EnableCrusaderStrike", true);
+        enabledOldHolyStrike = config.GetBoolDefault("Paladinpower.EnableOldHolyStrike", false);
+
 #ifndef EXPANSION=0
         enabled = false;
 #endif

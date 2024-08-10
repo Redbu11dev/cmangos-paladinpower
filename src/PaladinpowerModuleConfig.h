@@ -11,5 +11,7 @@ namespace cmangos_module
 
     public:
         bool enabled;
+        bool enableCrusaderStrike;
+        bool enabledOldHolyStrike;
     };
 }

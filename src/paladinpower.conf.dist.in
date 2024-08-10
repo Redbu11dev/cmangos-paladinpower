@@ -1,11 +1,17 @@
 ###################################################################################################################
-# PALADINPOWER SETTINGS
 #
-#    Paladinpower.Enable
-#        Enable Paladinpower
-#        Default: 1 (enable - enables paladinpower system)
-#                 0 (disable - disables paladinpower system)
+# PALADINPOWER SETTINGS
 #
 ###################################################################################################################
 
+# (0-1) Enable or disable the module
+# If this is set to 0 - all added spells will be removed from every player
 Paladinpower.Enable = 0
+
+# (0-1) Enable or disable Crusader Strike
+# if this is set to 0 and Paladinpower.Enable = 1, then it will remove this spell from every player
+Paladinpower.EnableCrusaderStrike = 1
+
+# (0-1) Enable or disable Old holy strike
+# if this is set to 0 and Paladinpower.Enable = 1, then it will remove this spell from every player
+Paladinpower.EnableOldHolyStrike = 0
