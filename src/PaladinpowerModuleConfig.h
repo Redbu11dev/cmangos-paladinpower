@@ -3,7 +3,7 @@
 
 namespace cmangos_module
 {
-    class PaladinpowerConfig : public ModuleConfig
+    class PaladinpowerModuleConfig : public ModuleConfig
     {
     public:
         PaladinpowerModuleConfig();

@@ -24,15 +24,15 @@ namespace cmangos_module
     }
 
     const cmangos_module::PaladinpowerModuleConfig* PaladinpowerModule::GetConfig() const
-        {
-            return (PaladinpowerModuleConfig*)Module::GetConfig();
-        }
+    {
+        return (PaladinpowerModuleConfig*)Module::GetConfig();
+    }
 
     void PaladinpowerModule::OnLoadFromDB(Player* player)
     {
         if (GetConfig()->enabled)
         {
-            LearnAvailableSkills(Player* player);
+            LearnAvailableSkills(player);
 	    }
     }
 
@@ -40,7 +40,7 @@ namespace cmangos_module
     {
 	    if (GetConfig()->enabled)
 	    {
-            LearnAvailableSkills(Player* player);
+            LearnAvailableSkills(player);
 	    }
     }
 
@@ -74,7 +74,4 @@ namespace cmangos_module
             }
         }
     }
-
-    //add a method to remove all skills if disabled?
-
 }
