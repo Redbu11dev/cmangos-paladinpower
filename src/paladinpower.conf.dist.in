@@ -1,0 +1,11 @@
+###################################################################################################################
+# PALADINPOWER SETTINGS
+#
+#    Paladinpower.Enable
+#        Enable Paladinpower
+#        Default: 1 (enable - enables paladinpower system)
+#                 0 (disable - disables paladinpower system)
+#
+###################################################################################################################
+
+Paladinpower.Enable = 0
