@@ -25,20 +25,20 @@ namespace cmangos_module
     private:
         std::vector<std::pair<uint32, uint32>> csRanks = {
                 {2537, 10},
-                {8823, 20},
-                {8824, 30},
-                {10336, 40},
-                {10337, 50}
+                {8823, 18},
+                {8824, 26},
+                {10336, 34},
+                {10337, 42}
         };
         std::vector<std::pair<uint32, uint32>> oldHsRanks = {
                 {679, 10},
-                {678, 20},
-                {1866, 30},
-                {680, 40},
-                {2495, 40},
-                {5569, 40},
-                {10332, 40},
-                {10333, 40}
+                {678, 18},
+                {1866, 26},
+                {680, 34},
+                {2495, 42},
+                {5569, 48},
+                {10332, 54},
+                {10333, 60}
         };
 
         void LearnCrusaderStrikeOfAvailableRanks(Player* player);
