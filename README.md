@@ -8,6 +8,7 @@ Classic only
 
 # Playerbot compatibility
 Bots will be able to use crusader strike out of the box
+
 For [zzOldHoly Strike] - I have changes in my playerbots fork to let bots use it - https://github.com/Redbu11dev/playerbots
 
 # How to install
