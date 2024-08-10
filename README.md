@@ -1,10 +1,14 @@
 # Paladinpower
-Module to give classic paladins more power by allowing to restore [Crusader Strike] and old[Holy Strike]
+Module to give classic paladins more power by allowing to restore [Crusader Strike] and [zzOldHoly Strike]
 
 The correct rank spells will be learned for each player automatically upon level up (or upon login if player level is higher than required)
 
 # Available Cores
 Classic only
+
+# Playerbot compatibility
+Bots will be able to use crusader strike out of the box
+For [zzOldHoly Strike] - I have changes in my playerbots fork to let bots use it - https://github.com/Redbu11dev/playerbots
 
 # How to install
 1. Follow the instructions in https://github.com/davidonete/cmangos-modules?tab=readme-ov-file#how-to-install
