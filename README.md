@@ -1,5 +1,7 @@
 # Paladinpower
-Module to give classic paladins more power by allowing to restore [Crusader Strike] and [zzOldHoly Strike]
+Module to give classic paladins more power by allowing to restore (optional, can choose only one):
+
+[Crusader Strike] and [zzOldHoly Strike]
 
 The correct rank spells will be learned for each player automatically upon level up (or upon login if player level is higher than required)
 
