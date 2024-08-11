@@ -9,7 +9,7 @@ Classic only
 # Playerbot compatibility
 Bots will be able to use crusader strike out of the box
 
-For [zzOldHoly Strike] - I have changes in my playerbots fork to let bots use it - https://github.com/Redbu11dev/playerbots
+I have changes in my own playerbots fork, contact me on discord if you need it
 
 # How to install
 1. Follow the instructions in https://github.com/davidonete/cmangos-modules?tab=readme-ov-file#how-to-install
